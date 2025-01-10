@@ -127,3 +127,14 @@ table {
   border-spacing: 0;
 }
 /*END OF CSS RESET*/
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  .main {
+    font-size: 128px;
+  }
+}
